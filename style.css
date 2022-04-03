@@ -1,0 +1,101 @@
+/*
+Theme Name:   Mikuszewo 2022
+Theme URI:    
+Description:  
+Author:       Bohdan Bobrowski
+Author URI:   
+Template:     go
+Version:      1.0.0
+License:      
+License URI:  
+Tags:         
+Text Domain:  mikuszewo2022
+ */
+
+
+ :root {
+   --go--font-family: "Lato", sans-serif !important;
+   --go-heading--font-family: "Lato", sans-serif !important; 
+ }
+
+@media (min-width: 1440px) {
+   .header__inner {
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+.header__titles h1.custom-logo {
+   width: 180px;
+   text-align: center;
+}
+
+.header__titles .site-description {
+   max-width: 15em;
+   text-align: center;
+   line-height: 120% !important;
+}
+
+table.featured_homepage_table {
+   border: none;
+   text-align: center;
+}
+
+table.featured_homepage_table {    
+   margin-top: 3em;
+   margin-bottom: 3em;
+}
+
+table.featured_homepage_table td {
+   border: none;
+   padding-left: 0.5em;
+   padding-right: 0;
+   width: 50% !important;
+}
+
+table.featured_homepage_table td:first-child {
+   padding-left: 0;
+   padding-right: 0.5em;
+}
+
+li.qtranxs-lang-menu>a {
+   font-size: 0;
+}
+
+li.qtranxs-lang-menu>:after {
+   background-color: transparent !important;
+}
+
+.wpgmza_map {
+   float: none !important;
+   max-width: var(--go--max-width) !important;
+   width: calc(100% - var(--double-padding)) !important;
+   margin-left: auto !important;
+   margin-right: auto !important;
+}
+
+@media only screen and (min-width: 960px) {
+
+   .has-header-7 .header .header__titles {
+      flex-basis: 20% !important;
+   }
+   
+}
+
+table td, table th {
+   word-break: keep-all !important;
+
+}
+
+
+.button, button, input[type=button], input[type=reset], input[type=submit] {
+   line-height: 1.2 !important;
+}
+
+.copyright-footer h6 {
+   color: #CCC;
+   font-weight: 300;
+
+}
+
