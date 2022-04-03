@@ -29,6 +29,9 @@ $has_background = Go\has_footer_background();
 		<?php endif; ?>
 
 		<div class="site-footer__inner max-w-wide m-auto text-center">
+			<a href="https://bezlik.org/2022/02/latarnie-pnwm/" target="_blank">
+				<img src="<?= get_stylesheet_directory_uri() ?>/img/latarnie_dpjw_online.svg" style="height:75px;" alt="Latarnie PNWM / DPJW Leuchtürme" />
+			</a>
 			<a href="https://pnwm.org/" target="_blank" rel="nofollow">
 				<img src="<?= get_stylesheet_directory_uri() ?>/img/pnwm_150px.png" style="height:75px;" alt="Projekt dofinansowała Polsko-Niemiecka Współpraca Młodzieży" />
 			</a>

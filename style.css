@@ -5,7 +5,7 @@ Description:
 Author:       Bohdan Bobrowski
 Author URI:   
 Template:     go
-Version:      1.0.0
+Version:      1.0.1
 License:      
 License URI:  
 Tags:         
@@ -97,5 +97,9 @@ table td, table th {
    color: #CCC;
    font-weight: 300;
 
+}
+
+.site-footer__inner a {
+   margin: 0 2em;
 }
 
